@@ -80,6 +80,15 @@
       background-color: color.adjust($color-acento-contenido, $lightness: 50%)
       color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
       border: solid 4px $color-acento-contenido
+  &.color-acento-contenido-v
+    background-color: $color-acento-contenido-v
+    *
+      color: textColor($color-acento-contenido-v)
+    &--borde
+      background-color: color.adjust($color-acento-contenido-v, $lightness: 50%)
+      color: textColor(color.adjust($color-acento-contenido-v, $lightness: 50%))
+      border: solid 4px $color-acento-contenido-v
+  
   &.color-acento-botones
     background-color: $color-acento-botones
     *

@@ -5,7 +5,31 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Tema 4
+      h1 Diseño de redes logísticas
+    
+    #t_4_1
+    .titulo-segundo.color-primario
+      h2 4.1 Redes de transporte  
+
+    separador
+    #t_4_2
+    .titulo-segundo.color-primario
+      h2 4.2 Redes de distribución
+
+    separador
+    #t_4_3
+    .titulo-segundo.color-primario
+      h2 4.3 Rutas críticas
+
+    separador
+    #t_4_4
+    .titulo-segundo.color-primario
+      h2 4.4 Método PERT
+
+    separador
+    #t_4_5
+    .titulo-segundo.color-primario
+      h2 4.5 Método CPM
 
 </template>
 
