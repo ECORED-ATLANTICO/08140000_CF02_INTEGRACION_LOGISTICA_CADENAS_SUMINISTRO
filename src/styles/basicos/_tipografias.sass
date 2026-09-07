@@ -289,7 +289,7 @@
       color: $white
       position: relative
       margin-right: 8px
-      vertical-align: top
+      vertical-align: middle
 
       span
         position: absolute
@@ -306,22 +306,31 @@
   li
     > i:first-of-type
       position: relative
-      top: 4px
-      margin-right: 7px
+      top: 0.7rem !important
+      margin-right: 5px
       vertical-align: top
     ul
       padding-left: 15px
       .lista-ul__vineta
         &:before
           content: '- '
+          line-height: 0rem
   &__vineta
-    top: 0 !important
+    top: 0rem !important
     &:before
       content: '• '
-      line-height: 1em
+      line-height: 0rem
 
   &--color
     @extend .lista-ul
     li
       > i:first-of-type
         color: $color-acento-contenido
+
+  &.color-secundario
+    li
+      > i:first-of-type
+        color: $color-secundario !important
+        font-size: 2.8rem !important
+        line-height: 0rem !important
+        overflow: hidden

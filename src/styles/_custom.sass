@@ -68,12 +68,6 @@ figcaption, table caption
   &-1
     background-color: $color-primario
 
-
-
-
-
-
-
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -90,15 +84,10 @@ figcaption, table caption
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
 
-  
- 
-  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -108,3 +97,127 @@ figcaption, table caption
 .barra-avance__boton--regresar span 
   color: $white !important
  
+/// acordion--------------------------------------
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  box-shadow: none
+
+.acordion__activo
+  background-color: $color-secundario-vc !important
+.tarjeta.color-acento-contenido-v i
+  color: $white !important
+
+/// circl-arrow--------------------------------------
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+
+/**************************************************************/
+/***Tarjeta con imagen y texto revelado al hover***/
+/**************************************************************/
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+
+.crd_hover_txt
+  position: relative
+  border-radius: 20px
+  padding: 0 !important
+  overflow: hidden !important
+
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+      background-color: $color-primario
+      h4, p
+        color: $white
+
+  &--img
+    img
+      display: block
+      width: 100%
+
+  &--body
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    padding: 1.25rem 1.5rem
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc(100% - 3.85rem))
+    background-color: $color-primario
+
+    h4, p
+      color: $white
+      transition: color 0.3s ease-in-out
+    h4
+      font-size: 1.1rem
+
+
+/**************************************************************/
+/***Tabla a***/
+/**************************************************************/
+.tabla-a thead
+  border-top: 10px $color-secundario solid
+  color: $color-sistema-a
+  background-color: $color-secundario-vc
+
+.bg-table-01
+  border-top: 10px $color-secundario-vc solid
+  background-color: $color-secundario-vc
+  color: $color-sistema-texto
+  font-weight: bold
+  font-size: 1.2rem
+
+
+/**************************************************************/
+/***TabsA***/
+/**************************************************************/
+
+.tabs-a.color-acento-contenido.uno
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 35% !important
+      max-width: 35% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 35% !important
+        max-width: 35% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 65% !important
+      max-width: 65% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 65% !important
+        max-width: 65% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
+
+  justify-content: center !important

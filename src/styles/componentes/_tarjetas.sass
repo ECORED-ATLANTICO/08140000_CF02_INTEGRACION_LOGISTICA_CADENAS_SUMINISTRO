@@ -24,11 +24,157 @@
   &--azul
     background-color: $color-sistema-e
 
-  &--boton
+  &--adicional-1
+    background-color: $color-adicional-1
+
+  &--fondo-img-01
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_3.png) !important
     border-radius: 20px
-    background-color: $color-sistema-h
-    cursor: pointer
-    transition: background-color 0.3s ease-in-out
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+
+  &--fondo-img-02
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_7.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+
+  &--fondo-img-03
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_13.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    .slyder-a__tipo-a .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__bullets
+      display: none
+
+  &--fondo-img-04
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema2/img_5.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+
+  &--fondo-img-05
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_23.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-terciario !important
+      border-color: $color-terciario !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: color.adjust($color-terciario, $lightness: 15%)
+      border: 1px solid color.adjust($color-terciario, $lightness: 15%)
+
+  &--fondo-img-06
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema3/img_17.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+
+  &--fondo-img-07
+    background-color: $color-sistema-e
+    //background-image: url(../assets/curso/tema1/img_20.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    *
+      color: textColor($color-sistema-h)
 
     &.color-primario
       &:active, &:focus, &:hover
@@ -51,6 +197,84 @@
         *
           color: textColor($color-acento-botones)
 
+  //Tarjeta bg-img
+  &--bg-img
+    overflow: hidden
+    figure
+      margin: 0
+      height: 100%
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        object-position: center
+        display: block
+
+    &.color-primario
+      background-color: $color-primario
+      *
+        color: textColor($color-primario)
+      &--borde
+        background-color: color.adjust($color-primario, $lightness: 50%)
+        color: textColor(color.adjust($color-primario, $lightness: 50%))
+        border: solid 4px $color-primario
+    &.color-primario-vc
+      background-color: $color-primario-vc
+      *
+        color: textColor($color-primario-vc)
+      &--borde
+        background-color: color.adjust($color-primario-vc, $lightness: 50%)
+        color: textColor(color.adjust($color-primario-vc, $lightness: 50%))
+        border: solid 4px $color-primario-vc
+    &.color-secundario
+      background-color: $color-secundario
+      *
+        color: textColor($color-secundario)
+      &--borde
+        background-color: color.adjust($color-secundario, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario, $lightness: 50%))
+        border: solid 4px $color-secundario
+    &.color-secundario-vc
+      background-color: $color-secundario-vc
+      *
+        color: textColor($color-secundario-vc)
+      &--borde
+        background-color: color.adjust($color-secundario-vc, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario-vc, $lightness: 50%))
+        border: solid 4px $color-secundario-vc
+    &.color-terciario
+      background-color: $color-terciario
+      *
+        color: textColor($color-terciario)
+      &--borde
+        background-color: color.adjust($color-terciario, $lightness: 50%)
+        color: textColor(color.adjust($color-terciario, $lightness: 50%))
+        border: solid 4px $color-terciario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+      *
+        color: textColor($color-acento-contenido)
+      &--borde
+        background-color: color.adjust($color-acento-contenido, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
+        border: solid 4px $color-acento-contenido
+    &.color-acento-contenido-v
+      background-color: $color-acento-contenido-v
+      *
+        color: textColor($color-acento-contenido-v)
+      &--borde
+        background-color: color.adjust($color-acento-contenido-v, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido-v, $lightness: 50%))
+        border: solid 4px $color-acento-contenido-v
+    &.color-acento-botones
+      background-color: $color-acento-botones
+      *
+        color: textColor($color-acento-botones)
+      &--borde
+        background-color: color.adjust($color-acento-botones, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
+        border: solid 4px $color-acento-botones
+
   &--tabla
     background-color: $color-sistema-e
     &:nth-child(even)
@@ -64,6 +288,14 @@
       background-color: color.adjust($color-primario, $lightness: 50%)
       color: textColor(color.adjust($color-primario, $lightness: 50%))
       border: solid 4px $color-primario
+  &.color-primario-vc
+    background-color: $color-primario-vc
+    *
+      color: textColor($color-primario-vc)
+    &--borde
+      background-color: color.adjust($color-primario-vc, $lightness: 50%)
+      color: textColor(color.adjust($color-primario-vc, $lightness: 50%))
+      border: solid 4px $color-primario-vc
   &.color-secundario
     background-color: $color-secundario
     *
@@ -72,6 +304,14 @@
       background-color: color.adjust($color-secundario, $lightness: 50%)
       color: textColor(color.adjust($color-secundario, $lightness: 50%))
       border: solid 4px $color-secundario
+  &.color-secundario-vc
+    background-color: $color-secundario-vc
+    *
+      color: textColor($color-secundario-vc)
+    &--borde
+      background-color: color.adjust($color-secundario-vc, $lightness: 50%)
+      color: textColor(color.adjust($color-secundario-vc, $lightness: 50%))
+      border: solid 4px $color-secundario-vc
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -88,7 +328,6 @@
       background-color: color.adjust($color-acento-contenido-v, $lightness: 50%)
       color: textColor(color.adjust($color-acento-contenido-v, $lightness: 50%))
       border: solid 4px $color-acento-contenido-v
-  
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -97,6 +336,14 @@
       background-color: color.adjust($color-acento-botones, $lightness: 50%)
       color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
       border: solid 4px $color-acento-botones
+  &.color-acento-botones-vc
+    background-color: $color-acento-botones-vc
+    *
+      color: textColor($color-acento-botones-vc)
+    &--borde
+      background-color: color.adjust($color-acento-botones-vc, $lightness: 50%)
+      color: textColor(color.adjust($color-acento-botones-vc, $lightness: 50%))
+      border: solid 4px $color-acento-botones-vc
 
 // TARJETAS CON AVATAR
 .tarjeta-avatar
@@ -235,7 +482,6 @@
       background-color: $color-acento-botones
       color: textColor($color-acento-botones)
 
-
 .tarjeta-slide
   height: 100%
   position: relative
@@ -247,7 +493,6 @@
     background-position: center
     transform: translate(0,0)
     transition: transform 0.3s ease-in-out
-  
 
   &.arriba
     &:hover

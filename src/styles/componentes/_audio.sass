@@ -20,12 +20,19 @@
 
 .audio, .tarjeta-audio, .tarjeta-dialogo
   &.color-primario
+    background-color: $white
+    color: $color-sistema-texto  !important
+    border: 3px solid $color-acento-botones !important
     .audio__btn
-      background-color: $color-primario
+      background-color: $color-acento-botones
+      margin-bottom: 2.9rem !important
       &:hover
-        background-color: color.adjust($color-primario, $lightness: -10%)
+        background-color: color.adjust($color-secundario, $lightness: -10%)
     .spinner-border
-      border-color: $color-primario
+      border-color: $color-sistema-texto
+    .tarjeta-audio__texto
+      color: $color-sistema-texto  !important
+      margin-bottom: 1.5rem !important
   &.color-secundario
     .audio__btn
       background-color: $color-secundario

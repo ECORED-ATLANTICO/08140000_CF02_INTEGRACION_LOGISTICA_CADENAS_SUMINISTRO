@@ -1,5 +1,6 @@
 @use 'sass:color'
 @use '../variables' as *
+
 .bloque-texto-a
   position: relative
   &:before
@@ -48,7 +49,7 @@
       display: inline
   i
     font-size: 2.5em
-    color: $color-acento-contenido
+    color: $color-primario
     &:first-of-type
       margin-right: 15px
     &:last-of-type
@@ -56,15 +57,30 @@
       vertical-align: text-top
 
   &.color-primario
+    i
+      font-size: 2.5em
+      color: $color-primario
     &:before
       background-color: $color-primario
   &.color-secundario
+    i
+      font-size: 2.5em
+      color: $color-secundario
     &:before
       background-color: $color-secundario
-  &.color-acento-contenido
+  &.color-secundario-vc
     &:before
-      background-color: $color-acento-contenido
+      background-color: $color-secundario-vc
+  &.color-acento-contenido
+    i
+      font-size: 2.5em
+      color: $color-acento-contenido
+    &:before
+      background-color: $color-acento-contenido-vc
   &.color-acento-botones
+    i
+      font-size: 2.5em
+      color: $color-acento-botones
     &:before
       background-color: $color-acento-botones
 
@@ -239,6 +255,8 @@
     background-color: rgba( $white, .95 )
     *
       display: inline
+    ul, ol, li
+      display: block
 
   &--inverso
     justify-content: flex-start
@@ -262,9 +280,149 @@
 
   &.color-primario
     background-color: $color-primario
+  &.color-primario-vc
+    background-color: $color-primario-vc
   &.color-secundario
     background-color: $color-secundario
+  &.color-secundario-vc
+    background-color: $color-secundario-vc
+  &.color-secundario-v
+    background-color: $color-secundario-v
+  &.color-secundario-vo
+    background-color: $color-secundario-vo
+  &.color-terciario
+    background-color: $color-terciario
   &.color-acento-contenido
     background-color: $color-acento-contenido
+  &.color-acento-contenido-vc
+    background-color: $color-acento-contenido-vc
   &.color-acento-botones
     background-color: $color-acento-botones
+  &.color-acento-botones-vc
+    background-color: $color-acento-botones-vc
+
+.bloque-texto-t
+  display: flex
+  flex-direction: column
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 50px
+
+  &__texto
+    position: relative
+    background-color: $white
+    padding: 1rem
+    transform: translateY(-55px)
+
+    @media (min-width: $bp-min-lg)
+      transform: translateY(-55px)
+
+    @media (max-width: 575px)
+      transform: translateY(-20px)
+    
+
+
+    margin: 0
+    border-radius: 5px
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
+    &.color-primario
+      background-color: $color-primario
+    &.color-primario-vc
+      background-color: $color-primario-vc
+    &.color-primario-v
+      background-color: $color-primario-v
+    &.color-primario-vo
+      background-color: $color-primario-vo
+    &.color-secundario
+      background-color: $color-secundario
+    &.color-secundario-vc
+      background-color: $color-secundario-vc
+    &.color-secundario-v
+      background-color: $color-secundario-v
+    &.color-terciario
+      background-color: $color-terciario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+    &.color-acento-contenido-vc
+      background-color: $color-acento-contenido-vc
+    &.color-acento-botones
+      background-color: $color-acento-botones
+  &__autor
+    text-align: center
+    position: relative
+
+  &__avatar
+    position: relative
+    height: 50px
+    &__img
+      background-color: $white
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translateX(-50%)
+      width: 100px
+      border-radius: 50%
+      overflow: hidden
+      border: 5px solid $white
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3)
+
+.bloque-texto-q
+  display: flex
+  flex-direction: column
+  position: relative
+
+  &__img
+    img
+      width: 100%
+      object-fit: cover
+      max-height: 320px
+      border-radius: 12px
+
+  &__cards
+    position: relative
+    z-index: 2
+    transform: translateY(-100px)
+    margin-bottom: -60px
+
+  &__texto
+    background-color: $white
+    padding: 1.5rem
+    border-radius: 8px
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
+    height: 100%
+    font-size: 0.88rem
+    color: #444
+    line-height: 1.6
+
+    &.color-secundario-vc
+      background-color: $color-secundario-vc
+
+  @media (max-width: 991px)
+    &__cards
+      transform: translateY(-70px)
+      margin-bottom: -30px
+      flex-direction: column
+
+    &__texto
+      margin-bottom: 1rem
+      height: auto
+
+  @media (max-width: 575px)
+    &__img
+      img
+        max-height: 200px
+        border-radius: 8px
+
+    &__cards
+      transform: translateY(-20px)
+      margin-bottom: -20px
+
+    &__texto
+      padding: 1rem
+      font-size: 0.82rem
