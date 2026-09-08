@@ -132,6 +132,7 @@ figcaption, table caption
   border-radius: 20px
   padding: 0 !important
   overflow: hidden !important
+  height: 100%
 
   &:hover
     .crd_hover_txt--body
@@ -140,27 +141,67 @@ figcaption, table caption
       background-color: $color-primario
       h4, p
         color: $white
+    
+    .crd_hover_txt--body_2
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+      background-color: $color-primario-v
+      h4, p
+        color: $black
 
   &--img
+    position: relative
+    width: 100%
+    height: 100%
+
     img
       display: block
       width: 100%
-
+      height: 100%
+      object-fit: cover
+      border-radius: 20px
+      
   &--body
     position: absolute
-    left: 0
+    left: 3%
     right: 0
-    bottom: 0
-    padding: 1.25rem 1.5rem
+    bottom: 0%
+    top: 0%
+    width: 95%
+    min-height: 80px
+    padding: 1rem 1.2rem 1.2rem 1.5rem
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc(100% - 3.85rem))
     background-color: $color-primario
+    color: $white
+    border-radius: 30px
+    z-index: 2
+
 
     h4, p
       color: $white
-      transition: color 0.3s ease-in-out
+      margin: 0
+
+  &--body_2
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-primario-v 
+    color: $black
+    border-radius: 0px
+    z-index: 2
+    h4, p 
+      margin: 0
     h4
       font-size: 1.1rem
+      line-height: 1.3
+
+    @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
 
 /**************************************************************/

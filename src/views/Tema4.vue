@@ -161,7 +161,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema4/img_6.png", alt="Camiones de carga junto a un cronómetro y cajas de embalaje")
-      .bloque-texto-t__texto.col-11.col-lg-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 El método PERT (#[em Program Evaluation and Review Technique]) es una herramienta de planeación utilizada para estimar y controlar el tiempo de ejecución de proyectos mediante el análisis de actividades y sus relaciones de dependencia. Este método considera escenarios optimistas, probables y pesimistas para calcular la duración esperada de cada actividad y del proyecto en su conjunto.
 
     p.mb-5(data-aos="zoom-in-right") En logística puede utilizarse para planificar proyectos u operaciones donde existen actividades dependientes y tiempos con cierto grado de incertidumbre. PERT considera tres estimaciones para calcular el tiempo esperado de cada actividad:

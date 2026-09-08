@@ -10,7 +10,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema5/img_1.png", alt="Trabajador tomando una caja de una estantería en una bodega")
-      .bloque-texto-t__texto.col-11.col-lg-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 La capacidad y la trazabilidad logística constituyen elementos fundamentales para garantizar el flujo eficiente de productos dentro de la cadena de suministro. Su adecuada gestión permite optimizar el uso de los recursos, controlar el movimiento de las mercancías y asegurar el seguimiento de los productos desde su origen hasta el consumidor final.
 
     separador
@@ -127,7 +127,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema5/img_4.png", class="img-fluid", alt="Mano interactuando con una tableta que muestra un mapa de rutas de distribución")
-          .crd_hover_txt--body
+          .crd_hover_txt--body_2
             h4.mb-3 Recursos tecnológicos
             p.mb-0 Integran sistemas y herramientas para programar despachos, optimizar rutas, localizar vehículos, monitorear entregas y gestionar información, facilitando la coordinación y el control de las operaciones de distribución.
       .col-12.col-md-9.col-lg-6.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -135,7 +135,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema5/img_5.png", class="img-fluid", alt="Equipo de trabajo revisando indicadores en pantallas y documentos en una oficina")
-          .crd_hover_txt--body
+          .crd_hover_txt--body_2
             h4.mb-3 Personal operativo
             p.mb-0 Incluye conductores, auxiliares y demás trabajadores encargados del cargue, transporte, descargue y entrega de mercancías, cuya disponibilidad, experiencia y competencias contribuyen al cumplimiento de la operación.
 

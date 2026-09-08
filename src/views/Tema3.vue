@@ -33,7 +33,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema3/img_3.png", alt="Trabajadora etiquetando una caja junto a un computador portátil con un sistema de gestión")
-      .bloque-texto-t__texto.col-11.col-lg-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 El análisis agregado es una herramienta de planeación utilizada para estimar la demanda y definir los recursos necesarios durante un horizonte de tiempo determinado. Su propósito consiste en equilibrar la capacidad de producción, la disponibilidad de inventarios y los requerimientos del mercado, optimizando el uso de materiales, personal y equipos.
 
     p.mb-5(data-aos="zoom-in-right") Este análisis integra información relacionada con:
@@ -113,7 +113,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/img_10.png", class="img-fluid", alt="Icono de una gráfica de barras con tendencia ascendente")
-          .crd_hover_txt--body
+          .crd_hover_txt--body_2
             h4.mb-3 Programación de compras
             p.mb-0 Permite determinar qué insumos y materiales deben adquirirse y en qué momento, de acuerdo con las cantidades y fechas previstas en el programa de producción, favoreciendo un abastecimiento oportuno.
       .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -121,7 +121,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/img_11.png", class="img-fluid", alt="Estantería con rollos de tela de distintos colores en una bodega textil")
-          .crd_hover_txt--body
+          .crd_hover_txt--body_2
             h4.mb-3 Disponibilidad de materiales
             p.mb-0 Busca asegurar que las materias primas, componentes e insumos necesarios se encuentren disponibles cuando sean requeridos por producción, reduciendo interrupciones ocasionadas por faltantes o retrasos en el abastecimiento.
       .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -129,7 +129,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/img_12.png", class="img-fluid", alt="Trabajadora operando una máquina industrial de costura en una planta de producción")
-          .crd_hover_txt--body
+          .crd_hover_txt--body_2
             h4.mb-3 Utilización de los recursos productivos
             p.mb-0 Favorece la coordinación del personal, maquinaria, equipos e instalaciones con las necesidades de producción programadas, procurando aprovechar la capacidad disponible y disminuir tiempos improductivos, sobrecargas y uso innecesario de recursos.
 
@@ -240,8 +240,8 @@
       h5 Figura 1.
       |    Relación de la cantidad económica de pedido
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block", alt="La fórmula muestra que la cantidad económica de pedido (Q*) equivale a la raíz cuadrada de dos veces la demanda anual (D) por el costo por pedido (S), dividido entre el costo de mantenimiento de inventario (H).").mb-3
-      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none", alt="La fórmula muestra que la cantidad económica de pedido (Q*) equivale a la raíz cuadrada de dos veces la demanda anual (D) por el costo por pedido (S), dividido entre el costo de mantenimiento de inventario (H).").mb-3
+      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra la grafica que representa la relación entre la cantidad de pedido y los costos asociados a la gestión de inventarios. Muestra cómo el costo de ordenar disminuye al aumentar el tamaño del pedido, mientras el costo de mantenimiento se incrementa. La combinación de ambos genera una curva de costo total cuyo punto mínimo identifica la cantidad económica de pedido (Q*), orientada a equilibrar los costos de inventario. ").mb-3
+      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra la grafica que representa la relación entre la cantidad de pedido y los costos asociados a la gestión de inventarios. Muestra cómo el costo de ordenar disminuye al aumentar el tamaño del pedido, mientras el costo de mantenimiento se incrementa. La combinación de ambos genera una curva de costo total cuyo punto mínimo identifica la cantidad económica de pedido (Q*), orientada a equilibrar los costos de inventario. ").mb-3
       figcaption Nota. SENA, (2026).
 
     p.mb-4(data-aos="zoom-in-right") Donde:

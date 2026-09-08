@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura muestra la estructura jerárquica de componente formativo: Parametrización de redes y control logístico. La información se organiza en cinco áreas interrelacionadas que abarcan la orientación de las operaciones, su planeación y control, la determinación de requerimientos, el diseño de redes y la gestión de capacidades y trazabilidad. Cada área integra conceptos, herramientas y métodos aplicables a diferentes procesos de la cadena de suministro, permitiendo comprender de manera articulada cómo se planifican, organizan, controlan y optimizan los recursos, flujos y operaciones logísticas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

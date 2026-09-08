@@ -10,7 +10,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema1/img_1.png", alt="Vista aérea de un puerto con contenedores de carga, símbolo de la logística en la cadena de suministro")
-      .bloque-texto-t__texto.col-11.col-lg-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 Las políticas logísticas orientan la ejecución de las actividades relacionadas con el abastecimiento, almacenamiento, producción y distribución de bienes y servicios. Su aplicación permite estandarizar procesos, optimizar recursos y garantizar el cumplimiento de los objetivos organizacionales dentro de la cadena de suministro.
 
     separador
@@ -302,7 +302,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema1/img_21.png", alt="Trabajadora etiquetando cajas almacenadas en una estantería con ayuda de una tableta")
-      .bloque-texto-t__texto.col-11.col-lg-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 Las políticas de preparación de pedidos definen los procedimientos para seleccionar, consolidar, verificar y acondicionar los productos que serán entregados al cliente. Estas directrices buscan garantizar exactitud, rapidez y calidad durante el proceso de alistamiento.
 
     p.mb-5(data-aos="zoom-in-right") Entre los aspectos que regulan se encuentran:
@@ -314,7 +314,7 @@
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-05.p-2.p-md-4.px-3.p-lg-4.p-xl-5.mb-3(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.p-5(tipo="b").mb-0
+            SlyderA.p-4(tipo="b").mb-0
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
                   h3.mb-3 Métodos de #[em picking]
@@ -383,7 +383,9 @@
             figure
               img(src="@/assets/curso/tema1/img_25.png", class="img-fluid", alt="Persona sellando una caja de cartón con cinta adhesiva en una bodega")
           .crd_hover_txt--body
-            h4.mb-3 Manejo seguro de la mercancía
+            .d-flex.align-items-center.mb-0
+              i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
+              h4.mb-3 Manejo seguro de la mercancía
             p.mb-0 Orienta las prácticas y recursos utilizados para movilizar, cargar y descargar productos, evitando daños, pérdidas o accidentes. Ejemplo: en una bodega, los productos frágiles se manipulan con equipos adecuados y se mantienen identificados durante su movilización.
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
         .crd_hover_txt
@@ -391,7 +393,9 @@
             figure
               img(src="@/assets/curso/tema1/img_26.png", class="img-fluid", alt="Trabajadores asegurando una carga paletizada con film plástico para su transporte")
           .crd_hover_txt--body
-            h4.mb-3 Requisitos de transporte
+            .d-flex.align-items-center.mb-0
+              i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
+              h4.mb-3 Requisitos de transporte
             p.mb-0 Comprende las condiciones que deben cumplir vehículos, equipos y procedimientos para movilizar la mercancía de forma segura. Ejemplo: los alimentos congelados se transportan en vehículos refrigerados que mantienen la temperatura requerida durante el recorrido.
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
         .crd_hover_txt
@@ -399,7 +403,9 @@
             figure
               img(src="@/assets/curso/tema1/img_27.png", class="img-fluid", alt="Caja de cartón con símbolos de manipulación sobre una banda transportadora")
           .crd_hover_txt--body
-            h4.mb-3 Condiciones de almacenamiento
+            .d-flex.align-items-center.mb-0
+              i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
+              h4.mb-3 Condiciones de almacenamiento
             p.mb-0 Determina los requerimientos de ubicación, temperatura, humedad, ventilación, apilamiento y protección según las características del producto. Ejemplo: una empresa de alimentos mantiene los productos refrigerados en cámaras con temperatura controlada para preservar sus condiciones.
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
         .crd_hover_txt
@@ -407,7 +413,9 @@
             figure
               img(src="@/assets/curso/tema1/img_28.png", class="img-fluid", alt="Trabajador registrando información en un paquete antes de su entrega")
           .crd_hover_txt--body
-            h4.mb-3 Conservación de la calidad hasta la entrega
+            .d-flex.align-items-center.mb-0
+              i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
+              h4.mb-3 Conservación de la calidad hasta la entrega
             p.mb-0 Integra prácticas de manipulación, almacenamiento, transporte y control destinadas a conservar las características del producto hasta su recepción. Ejemplo: una distribuidora verifica temperatura, empaque y condiciones de transporte para entregar productos perecederos sin afectar su calidad.
 
     p.mb-5(data-aos="zoom-in-right") Su implementación permite reducir pérdidas, prevenir daños, cumplir con la normativa aplicable y fortalecer la confianza de clientes y proveedores en los procesos logísticos de la organización. Ejemplo empresarial: Bavaria S.A. aplica políticas específicas para la manipulación y conservación de bebidas, controlando aspectos como el almacenamiento, la rotación de inventarios, la limpieza de las áreas de distribución y las condiciones de transporte, con el fin de preservar la calidad de sus productos hasta el consumidor final.
