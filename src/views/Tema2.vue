@@ -115,7 +115,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Llamado a la acción. Caso práctico. Matriz de proveedores (SRM). El documento explica la manera de como hacer una matriz de proveedores por medio de un caso práctico.
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(href="https://gruponutresa.com/sostenibilidad/nuestra-gestion-en-sostenibilidad/estrategia-modelo-de-relacionamiento/" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/anexo_01.pdf')" target="_blank")
                     span ir al recurso
 
     separador
@@ -149,7 +149,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Llamado a la acción. Caso práctico. Matriz de clientes (CRM). El documento explica la manera de cómo hacer una matriz de clientes por medio de un caso práctico.
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(href="https://www.homecenter.com.co/homecenter-co/venta-telefonica/" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/anexo_02.pdf')" target="_blank")
                     span ir al recurso
 
     .row.justify-content-center.align-items-center.mb-0
