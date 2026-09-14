@@ -37,42 +37,42 @@
           tr
             td.text-start Abastecimiento
             td.text-start
-              ul.mb-0.ps-3
+              ul.mb-0.ps-3(style="list-style-type: disc;")
                 li Cumplimiento de proveedores.
                 li Tiempo de abastecimiento.
             td.text-start Evaluar la oportunidad y confiabilidad del suministro, considerando el cumplimiento de las condiciones acordadas y el tiempo requerido para disponer de los productos solicitados.
           tr
             td.text-start Almacenamiento
             td.text-start
-              ul.mb-0.ps-3
+              ul.mb-0.ps-3(style="list-style-type: disc;")
                 li Utilización de la capacidad.
                 li Tiempo de preparación de pedidos.
             td.text-start Analizar el aprovechamiento del espacio disponible y la eficiencia con que se realizan las operaciones necesarias para preparar los productos requeridos para su despacho.
           tr
             td.text-start Inventarios
             td.text-start
-              ul.mb-0.ps-3
+              ul.mb-0.ps-3(style="list-style-type: disc;")
                 li Rotación de inventarios.
                 li Exactitud del inventario.
             td.text-start Conocer la frecuencia con que se renuevan las existencias y verificar la correspondencia entre las cantidades físicas disponibles y los registros del sistema de información.
           tr
             td.text-start Transporte
             td.text-start
-              ul.mb-0.ps-3
+              ul.mb-0.ps-3(style="list-style-type: disc;")
                 li Cumplimiento de entregas.
                 li Utilización de capacidad vehicular.
             td.text-start Evaluar el cumplimiento de los tiempos programados de entrega y el aprovechamiento de la capacidad disponible de los vehículos utilizados para movilizar las mercancías.
           tr
             td.text-start Distribución
             td.text-start
-              ul.mb-0.ps-3
+              ul.mb-0.ps-3(style="list-style-type: disc;")
                 li Pedidos entregados completos.
                 li Tiempo del ciclo de entrega.
             td.text-start Valorar la capacidad de entregar las cantidades y referencias solicitadas, así como controlar el tiempo requerido para trasladar los pedidos hasta su destino.
           tr
             td.text-start Servicio al cliente
             td.text-start
-              ul.mb-0.ps-3
+              ul.mb-0.ps-3(style="list-style-type: disc;")
                 li Pedido perfecto.
                 li Tasa de devoluciones.
             td.text-start Evaluar el nivel de cumplimiento de las entregas y detectar novedades relacionadas con productos incompletos, daños, errores, devoluciones u otras situaciones que afectan la satisfacción del cliente.
@@ -99,7 +99,7 @@
         figure
           img(src="@/assets/curso/tema2/img_2.png", class="img-fluid", alt="Hombre revisando documentos junto a una caja de embalaje, símbolo de la evaluación de proveedores")
       .col-12.col-lg-8.mb-0.mb-5
-        p.mb-3(data-aos="zoom-in-right") La Gestión de Relaciones con Proveedores (#[em Supplier Relationship Management – SRM]) es una metodología que permite administrar de manera estratégica las relaciones con los proveedores mediante procesos de evaluación, seguimiento y mejora continua. Su propósito es fortalecer la colaboración entre las partes y garantizar el suministro oportuno de bienes y servicios que soportan la operación logística.
+        p.mb-3(data-aos="zoom-in-right") La Gestión de Relaciones con Proveedores (#[em Supplier Relationship Management ]– SRM) es una metodología que permite administrar de manera estratégica las relaciones con los proveedores mediante procesos de evaluación, seguimiento y mejora continua. Su propósito es fortalecer la colaboración entre las partes y garantizar el suministro oportuno de bienes y servicios que soportan la operación logística.
         .tarjeta.color-acento-botones-vc.p-4.mb-0(data-aos="zoom-in-right")
           p.mb-0 La matriz SRM facilita la clasificación de los proveedores de acuerdo con criterios como calidad, cumplimiento en las entregas, capacidad de respuesta, costos, sostenibilidad y nivel de riesgo, permitiendo establecer planes de desarrollo y estrategias de abastecimiento más eficientes.
 
@@ -115,7 +115,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Llamado a la acción. Caso práctico. Matriz de proveedores (SRM). El documento explica la manera de como hacer una matriz de proveedores por medio de un caso práctico.
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/anexo_01.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Anexo_01_Caso_practico_Matriz_SRM.pdf')" target="_blank")
                     span ir al recurso
 
     separador
@@ -149,7 +149,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Llamado a la acción. Caso práctico. Matriz de clientes (CRM). El documento explica la manera de cómo hacer una matriz de clientes por medio de un caso práctico.
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/anexo_02.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Anexo_02_Caso_practico_Matriz_CRM.pdf')" target="_blank")
                     span ir al recurso
 
     .row.justify-content-center.align-items-center.mb-0

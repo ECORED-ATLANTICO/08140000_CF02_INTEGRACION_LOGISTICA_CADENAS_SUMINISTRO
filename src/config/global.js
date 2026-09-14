@@ -126,12 +126,12 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Programa maestro de producción (MPS)',
+            titulo: 'Programa Maestro de Producción (MPS)',
             hash: 't_3_3',
           },
           {
             numero: '3.4',
-            titulo: 'Planificación de requerimientos de materiales (MRP)',
+            titulo: 'Planificación de Requerimientos de Materiales (MRP)',
             hash: 't_3_4',
           },
           {
@@ -424,7 +424,7 @@ export default {
       autores: [
         {
           nombre: 'Sergio Quintero Guzmán',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

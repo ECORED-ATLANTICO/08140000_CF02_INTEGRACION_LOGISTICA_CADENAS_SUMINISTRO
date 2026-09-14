@@ -102,10 +102,9 @@
 
     #t_3_3
     .titulo-segundo.color-primario
-      h2 3.3 Programa maestro de producción (MPS)
-
-    p.mb-3(data-aos="zoom-in-right") El Programa Maestro de Producción (#[em Master Production Schedule - MPS]) es una herramienta de planeación que determina qué productos deben fabricarse, en qué cantidades y en qué períodos, de acuerdo con la demanda proyectada y la capacidad disponible de la organización.
-    p.mb-5(data-aos="zoom-in-right") El MPS permite coordinar la producción con las necesidades del mercado,
+      h2 3.3 Programa Maestro de Producción (MPS)
+    p.mb-3(data-aos="zoom-in-right") El Programa Maestro de Producción (#[em Master Production Schedule] - MPS) es una herramienta de planeación que determina qué productos deben fabricarse, en qué cantidades y en qué períodos, de acuerdo con la demanda proyectada y la capacidad disponible de la organización.
+    p.mb-5(data-aos="zoom-in-right") El MPS permite coordinar la producción con las necesidades del mercado:
 
     .row.justify-content-center.cursor-pointer.mb-5
       .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -150,11 +149,11 @@
 
     #t_3_4
     .titulo-segundo.color-primario
-      h2 3.4 Planificación de requerimientos de materiales (MRP)
+      h2 3.4 Planificación de Requerimientos de Materiales (MRP)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.order-2.order-lg-1
-        p.mb-4(data-aos="zoom-in-right") La Planificación de Requerimientos de Materiales (#[em Material Requirements Planning - MRP]) es un sistema que permite calcular la cantidad y el momento en que deben adquirirse o producirse los materiales necesarios para cumplir el Programa Maestro de Producción.
+        p.mb-4(data-aos="zoom-in-right") La Planificación de Requerimientos de Materiales (#[em Material Requirements Planning ]- MRP) es un sistema que permite calcular la cantidad y el momento en que deben adquirirse o producirse los materiales necesarios para cumplir el Programa Maestro de Producción.
         p.mb-0(data-aos="zoom-in-right") El MRP considera la demanda prevista, los inventarios disponibles, los tiempos de suministro y la estructura del producto para determinar oportunamente las necesidades de abastecimiento. Su aplicación contribuye a disminuir inventarios innecesarios, evitar faltantes de materiales y mejorar la coordinación entre compras y producción.
       .col-8.col-lg-4.order-1.order-lg-2(data-aos="fade-up")
         figure
@@ -183,7 +182,7 @@
           figure.p-0.m-0.h-100
             img(src="@/assets/curso/tema3/img_14.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="Estantería de bodega con llantas almacenadas")
         .col-12.col-lg-7.p-5.ps-5.ps-lg-3
-            p.mb-0 La lista de materiales (#[em Bill of Materials - BOM]) es el documento que identifica todos los componentes, materias primas, insumos y cantidades requeridas para fabricar un producto determinado. Constituye una herramienta fundamental para la planeación de la producción y el cálculo de los requerimientos de materiales.
+            p.mb-0 La lista de materiales (#[em Bill of Materials] - BOM) es el documento que identifica todos los componentes, materias primas, insumos y cantidades requeridas para fabricar un producto determinado. Constituye una herramienta fundamental para la planeación de la producción y el cálculo de los requerimientos de materiales.
 
     p.mb-5(data-aos="zoom-in-right") La información contenida en la BOM facilita la programación de compras, el control de inventarios y la correcta ejecución de los procesos productivos, permitiendo conocer con precisión la composición de cada producto elaborado por la organización. Los elementos son los siguientes:
 
@@ -233,16 +232,16 @@
     .titulo-segundo.color-primario
       h2 3.6 Cantidad económica de pedido (EOQ)
 
-    p.mb-3(data-aos="zoom-in-right") La cantidad económica de pedido (#[em Economic Order Quantity - EOQ]) es un modelo de planeación que permite determinar la cantidad óptima de unidades que deben solicitarse en cada pedido para minimizar los costos totales asociados al inventario, incluyendo los costos de ordenar y los costos de almacenamiento.
+    p.mb-3(data-aos="zoom-in-right") La cantidad económica de pedido (#[em Economic Order Quantity ]- EOQ) es un modelo de planeación que permite determinar la cantidad óptima de unidades que deben solicitarse en cada pedido para minimizar los costos totales asociados al inventario, incluyendo los costos de ordenar y los costos de almacenamiento.
     p.mb-5(data-aos="zoom-in-right") Esta se determina por la siguiente relación:
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
       h5 Figura 1.
       |    Relación de la cantidad económica de pedido
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra la grafica que representa la relación entre la cantidad de pedido y los costos asociados a la gestión de inventarios. Muestra cómo el costo de ordenar disminuye al aumentar el tamaño del pedido, mientras el costo de mantenimiento se incrementa. La combinación de ambos genera una curva de costo total cuyo punto mínimo identifica la cantidad económica de pedido (Q*), orientada a equilibrar los costos de inventario. ").mb-3
-      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra la grafica que representa la relación entre la cantidad de pedido y los costos asociados a la gestión de inventarios. Muestra cómo el costo de ordenar disminuye al aumentar el tamaño del pedido, mientras el costo de mantenimiento se incrementa. La combinación de ambos genera una curva de costo total cuyo punto mínimo identifica la cantidad económica de pedido (Q*), orientada a equilibrar los costos de inventario. ").mb-3
-      figcaption Nota. SENA, (2026).
+      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra la gráfica que representa la relación entre la cantidad de pedido y los costos asociados a la gestión de inventarios. Muestra cómo el costo de ordenar disminuye al aumentar el tamaño del pedido, mientras el costo de mantenimiento se incrementa. La combinación de ambos genera una curva de costo total cuyo punto mínimo identifica la cantidad económica de pedido (Q*), orientada a equilibrar los costos de inventario.").mb-3
+      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra la gráfica que representa la relación entre la cantidad de pedido y los costos asociados a la gestión de inventarios. Muestra cómo el costo de ordenar disminuye al aumentar el tamaño del pedido, mientras el costo de mantenimiento se incrementa. La combinación de ambos genera una curva de costo total cuyo punto mínimo identifica la cantidad económica de pedido (Q*), orientada a equilibrar los costos de inventario.").mb-3
+      
 
     p.mb-4(data-aos="zoom-in-right") Donde:
 
@@ -254,16 +253,16 @@
               ul.lista-ul.color-secundario
                 li.mb-3
                   i.lista-ul__vineta
-                  | #[strong Q*:] Cantidad económica u óptima que debe solicitarse en cada pedido.
+                  | #[strong Q*:] cantidad económica u óptima que debe solicitarse en cada pedido.
                 li.mb-3
                   i.lista-ul__vineta
-                  | #[strong D – Demanda:] Cantidad total de unidades que se espera consumir o vender durante el periodo analizado, generalmente un año.
+                  | #[strong D – Demanda:] cantidad total de unidades que se espera consumir o vender durante el periodo analizado, generalmente un año.
                 li.mb-3
                   i.lista-ul__vineta
-                  | #[strong S – Costo por pedido:] Costo asociado con generar y gestionar una orden, incluyendo actividades administrativas, recepción y procesamiento del pedido.
+                  | #[strong S – Costo por pedido:] costo asociado con generar y gestionar una orden, incluyendo actividades administrativas, recepción y procesamiento del pedido.
                 li.mb-0
                   i.lista-ul__vineta
-                  | #[strong H – Costo de mantenimiento:] Costo de conservar una unidad en inventario durante el periodo, considerando almacenamiento, seguros, deterioro, obsolescencia y otros costos asociados.
+                  | #[strong H – Costo de mantenimiento:] costo de conservar una unidad en inventario durante el periodo, considerando almacenamiento, seguros, deterioro, obsolescencia y otros costos asociados.
             .col-8.col-lg-3.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
                 img(src="@/assets/curso/tema3/img_18.png", class="img-fluid", alt="Icono de un camión de reparto")

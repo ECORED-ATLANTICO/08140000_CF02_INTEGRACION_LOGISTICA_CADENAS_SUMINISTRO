@@ -80,9 +80,9 @@
             .row.justify-content-center.mb-3
               .col-5
                 figure
-                  img(src="@/assets/curso/tema1/img_8.png", class="img-fluid", alt="Icono de una caja con una flecha de retorno, que representa la logística inversa")
-            h4.text-center Logística inversa
-            p.text-center Establece procedimientos para devoluciones, recuperación, reutilización o disposición de productos y materiales. Ejemplo: una empresa de comercio electrónico recibe productos devueltos, verifica su condición y determina su reincorporación al inventario o disposición final.
+                  img(src="@/assets/curso/tema1/img_10.png", class="img-fluid", alt="Icono de una lista de verificación junto a un marcador de ubicación")
+            h4.text-center De distribución
+            p.text-center Orienta la forma de entregar productos desde los puntos de almacenamiento hasta los clientes. Ejemplo: una empresa de consumo masivo organiza entregas por zonas geográficas para consolidar pedidos y aprovechar la capacidad vehicular.
           .tarjeta.tarjeta--fondo-img-02.border.shadow.p-4.mb-0
             .row.justify-content-center.mb-3
               .col-5
@@ -94,9 +94,9 @@
             .row.justify-content-center.mb-3
               .col-5
                 figure
-                  img(src="@/assets/curso/tema1/img_10.png", class="img-fluid", alt="Icono de una lista de verificación junto a un marcador de ubicación")
-            h4.text-center De distribución
-            p.text-center Orienta la forma de entregar productos desde los puntos de almacenamiento hasta los clientes. Ejemplo: una empresa de consumo masivo organiza entregas por zonas geográficas para consolidar pedidos y aprovechar la capacidad vehicular.
+                  img(src="@/assets/curso/tema1/img_8.png", class="img-fluid", alt="Icono de una caja con una flecha de retorno, que representa la logística inversa")
+            h4.text-center Logística inversa
+            p.text-center Establece procedimientos para devoluciones, recuperación, reutilización o disposición de productos y materiales. Ejemplo: una empresa de comercio electrónico recibe productos devueltos, verifica su condición y determina su reincorporación al inventario o disposición final.
           .tarjeta.tarjeta--fondo-img-02.border.shadow.p-4.mb-0
             .row.justify-content-center.mb-3
               .col-5
@@ -247,7 +247,6 @@
             figure
               img(src="@/assets/curso/tema1/img_16.png", class="img-fluid", alt="Icono de un portapapeles con una caja")
           .col-12.col-lg-11
-            h4(data-aos="fade-up") Inspección física de la mercancía
             p(data-aos="fade-up") Comprende la revisión de cantidades, estado, referencias, empaques y condiciones del producto durante el recibo. Ejemplo: un supermercado verifica que los productos refrigerados lleguen completos, sin daños y dentro de la temperatura requerida antes de aceptarlos.
       .py-3.px-4.py-md-4(titulo="Validación documental")
         .row.justify-content-center.align-items-center.mb-0
@@ -263,7 +262,6 @@
             figure
               img(src="@/assets/curso/tema1/img_18.png", class="img-fluid", alt="Icono de un monitor con una ficha de identificación")
           .col-12.col-lg-11
-            h4(data-aos="fade-up") Registro en los sistemas de información
             p(data-aos="fade-up") Permite incorporar oportunamente los movimientos de mercancía al sistema para actualizar existencias y mantener su trazabilidad. Ejemplo: al recibir 200 unidades, el auxiliar registra la entrada en el WMS para actualizar inmediatamente el inventario disponible.
       .py-3.px-4.py-md-4(titulo="Asignación de ubicaciones de almacenamiento")
         .row.justify-content-center.align-items-center.mb-0
@@ -271,7 +269,6 @@
             figure
               img(src="@/assets/curso/tema1/img_19.png", class="img-fluid", alt="Icono de una estantería con cajas y un marcador de ubicación")
           .col-12.col-lg-11
-            h4(data-aos="fade-up") Asignación de ubicaciones de almacenamiento
             p(data-aos="fade-up") Orienta la ubicación de las mercancías considerando características, rotación, volumen, compatibilidad y condiciones de conservación. Ejemplo: un centro de distribución ubica productos de alta rotación cerca de la zona de preparación de pedidos para facilitar su movilización.
       .py-3.px-4.py-md-4(titulo="Preparación de pedidos para despacho")
         .row.justify-content-center.align-items-center.mb-0
@@ -279,7 +276,6 @@
             figure
               img(src="@/assets/curso/tema1/img_20.png", class="img-fluid", alt="Icono de una caja con una flecha de actualización")
           .col-12.col-lg-11
-            h4(data-aos="fade-up") Preparación de pedidos para despacho
             p(data-aos="fade-up") Organiza la selección, verificación, consolidación, empaque y disposición de los productos solicitados antes de su salida. Ejemplo: un centro de distribución realiza el #[em picking], verifica cantidades y consolida los pedidos por ruta antes de cargarlos en los vehículos.
 
     .row.justify-content-center.align-items-center.mb-0
@@ -318,33 +314,52 @@
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
                   h3.mb-3 Métodos de #[em picking]
+                  p.mb-1 
+                    | Determinan la forma de recolectar productos según volumen, pedidos y organización del almacén, mediante modalidades por pedido, zona, lote u ola.
                   p.mb-0
                     strong Ejemplo:
                     |  un centro de distribución utiliza #[em picking] por zonas para preparar simultáneamente pedidos con múltiples referencias. Este método determina la forma de recolectar productos según volumen, pedidos y organización del almacén, mediante modalidades por pedido, zona, lote u ola.
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
                   h3.mb-3 Secuencia de preparación
+                  p.mb-1 
+                    | Organiza el orden de las actividades y recorridos para recolectar y consolidar productos eficientemente. 
                   p.mb-0
                     strong Ejemplo:
                     |  un operario sigue una ruta indicada por el WMS, comenzando por las ubicaciones más cercanas y continuando según la secuencia asignada. Esta política organiza el orden de las actividades y recorridos para recolectar y consolidar productos eficientemente.
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
                   h3.mb-3 Verificación de cantidades
+                  p.mb-1 
+                    | Comprueba que las unidades recolectadas correspondan con las cantidades solicitadas, evitando faltantes, sobrantes y errores.
                   p.mb-0
                     strong Ejemplo:
                     |  antes de consolidar un pedido, el operario escanea cada referencia y valida las unidades contra la orden registrada. Esta verificación comprueba que las unidades recolectadas correspondan con las cantidades solicitadas, evitando faltantes, sobrantes y errores.
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
-                  h3.mb-3 Embalaje y etiquetado
+                  h3.mb-3 Embalaje
+                  p.mb-1 
+                    | Orienta la selección y utilización de materiales que protegen los productos durante manipulación, almacenamiento temporal y transporte.
                   p.mb-0
                     strong Ejemplo:
-                    |  una empresa de comercio electrónico utiliza cajas y material protector según el tamaño y fragilidad de los artículos preparados, y cada caja recibe una etiqueta con código de barras, número de pedido, destino y datos requeridos para su distribución. El embalaje orienta la selección de materiales que protegen los productos, mientras que el etiquetado determina la información que debe incorporarse al pedido para facilitar su manejo, trazabilidad y entrega.
+                    |  una empresa de comercio electrónico utiliza cajas y material protector según el tamaño y fragilidad de los artículos preparados.
+              .row.align-items-center.mb-0
+                .col-12.mb-4.mb-lg-0
+                  h3.mb-3 Etiquetado
+                  p.mb-1 
+                    | Determina la información y elementos de identificación que deben incorporarse al pedido para facilitar manejo, trazabilidad y entrega.
+                  p.mb-0
+                    strong Ejemplo: 
+                    |  cada caja recibe una etiqueta con código de barras, número de pedido, destino y datos requeridos para su distribución.
+              
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
                   h3.mb-3 Control final antes del despacho
+                  p.mb-1 
+                    | Comprende la revisión integral del pedido para confirmar productos, cantidades, embalaje, etiquetado y documentación antes de autorizar su salida. 
                   p.mb-0
                     strong Ejemplo:
-                    |  el responsable verifica el pedido consolidado contra la orden y libera la mercancía para cargue. Este control comprende la revisión integral del pedido para confirmar productos, cantidades, embalaje, etiquetado y documentación antes de autorizar su salida.
+                    |  el responsable verifica el pedido consolidado contra la orden y libera la mercancía para cargue.
 
     p.mb-5(data-aos="zoom-in-right") Su correcta aplicación contribuye a reducir devoluciones y mejorar el nivel de servicio.
 
@@ -457,9 +472,9 @@
             .col-8.col-lg-5.d-none.d-lg-block.mb-0
               img(src="@/assets/curso/tema1/img_31.png", class="img-fluid", alt="Micrófono con audífonos junto a una furgoneta de reparto, símbolo del podcast")
             .col-12.col-lg-7
-              h2.mb-5 A continuación, se invita a ir al siguiente <em>podcast</em>:
+              h2.mb-5 A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.color-primario.p-4.mb-0(
-                texto="Políticas logísticas como ventaja competitiva en las organizaciones modernas"
+                texto="<span style='font-style: normal !important;'>Políticas logísticas como ventaja competitiva en las organizaciones modernas"
                 :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
                 tiempo
               )

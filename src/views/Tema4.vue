@@ -226,7 +226,7 @@
         figure
           img(src="@/assets/curso/tema4/img_8.png", class="img-fluid", alt="Trabajadora escaneando una caja mientras un compañero la recibe")
       .col-12.col-lg-8.mb-0.mb-5
-        p.mb-3(data-aos="zoom-in-right") El método CPM (Critical Path Method) es una técnica de programación que permite determinar la secuencia de actividades críticas de un proyecto cuando los tiempos de ejecución son conocidos. Su objetivo consiste en identificar las actividades que no admiten retrasos y optimizar la utilización de recursos para garantizar el cumplimiento de los cronogramas establecidos.
+        p.mb-3(data-aos="zoom-in-right") El método CPM (<em>Critical Path Method</em>) es una técnica de programación que permite determinar la secuencia de actividades críticas de un proyecto cuando los tiempos de ejecución son conocidos. Su objetivo consiste en identificar las actividades que no admiten retrasos y optimizar la utilización de recursos para garantizar el cumplimiento de los cronogramas establecidos.
         .tarjeta.color-acento-botones-vc.p-4.mb-0(data-aos="zoom-in-right")
           p.mb-0 La aplicación del CPM facilita el seguimiento permanente del proyecto, mejora la coordinación entre las áreas involucradas y permite establecer acciones correctivas cuando se presentan desviaciones en la programación.
 
@@ -251,7 +251,7 @@
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Video sugerido: Foro: diseño de redes logísticas para la última milla. A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con diseño de redes logísticas:
+                  p.mb-0 Video sugerido. Foro: diseño de redes logísticas para la última milla. A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con diseño de redes logísticas:
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=saNkaa9H_es" target="_blank")
                     span Ir al recurso
@@ -266,7 +266,7 @@
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Lectura sugerida: Capítulo 2. Modelos de redes PERT-CPM. Se invita al aprendiz a profundizar en diseño de redes logísticas, tal como se muestra en el siguiente artículo:
+                  p.mb-0 Lectura sugerida. Capítulo 2. Modelos de redes PERT-CPM. Se invita al aprendiz a profundizar en diseño de redes logísticas, tal como se muestra en el siguiente artículo:
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://hopelchen.tecnm.mx/principal/sylabus/fpdb/recursos/r137431.PDF" target="_blank")
                     span Ir al recurso
@@ -278,9 +278,9 @@
             .col-8.col-lg-5.d-none.d-lg-block.mb-0
               img(src="@/assets/curso/tema1/img_31.png", class="img-fluid", alt="Micrófono con audífonos junto a una furgoneta de reparto, símbolo del podcast")
             .col-12.col-lg-7
-              h2.mb-5 A continuación, se invita a ir al siguiente <em>podcast</em>:
+              h2.mb-5 A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.color-primario.p-4.mb-0(
-                texto="Diseño de redes logísticas: conectando el transporte con la distribución eficiente"
+                texto="<span style='font-style: normal !important;'>Diseño de redes logísticas: conectando el transporte con la distribución eficiente"
                 :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
                 tiempo
               )

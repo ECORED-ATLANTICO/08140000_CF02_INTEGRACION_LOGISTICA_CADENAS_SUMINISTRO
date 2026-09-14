@@ -244,7 +244,7 @@
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Video sugerido: Gestión de la cadena de suministro. A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con capacidad y trazabilidad logística:
+                  p.mb-0 Video sugerido. Gestión de la cadena de suministro. A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con capacidad y trazabilidad logística:
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=rXOmpRxRYkw" target="_blank")
                     span Ir al recurso
@@ -259,7 +259,7 @@
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Lectura sugerida: Trazabilidad en la cadena de valor de la Industria. Se invita al aprendiz a profundizar en capacidad y trazabilidad logística, a través del artículo:
+                  p.mb-0 Lectura sugerida. Trazabilidad en la cadena de valor de la Industria. Se invita al aprendiz a profundizar en capacidad y trazabilidad logística, a través del artículo:
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.minsait.com/cms-content/importacion/newsroom_documents/trazabilidadcadenavalorindustria_b.pdf" target="_blank")
                     span Ir al recurso
