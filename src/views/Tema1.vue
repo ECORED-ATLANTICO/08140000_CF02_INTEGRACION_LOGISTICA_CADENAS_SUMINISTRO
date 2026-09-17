@@ -254,7 +254,6 @@
             figure
               img(src="@/assets/curso/tema1/img_17.png", class="img-fluid", alt="Icono de un documento con una marca de verificación")
           .col-12.col-lg-11
-            h4(data-aos="fade-up") Validación documental
             p(data-aos="fade-up") Consiste en comprobar que la mercancía corresponda con órdenes de compra, facturas, remisiones y demás documentos exigidos. Ejemplo: una bodega compara las referencias y cantidades recibidas con la orden de compra antes de autorizar su ingreso.
       .py-3.px-4.py-md-4(titulo="Registro en los sistemas de información")
         .row.justify-content-center.align-items-center.mb-0
@@ -334,7 +333,7 @@
                     | Comprueba que las unidades recolectadas correspondan con las cantidades solicitadas, evitando faltantes, sobrantes y errores.
                   p.mb-0
                     strong Ejemplo:
-                    |  antes de consolidar un pedido, el operario escanea cada referencia y valida las unidades contra la orden registrada. Esta verificación comprueba que las unidades recolectadas correspondan con las cantidades solicitadas, evitando faltantes, sobrantes y errores.
+                    |  antes de consolidar un pedido, el operario escanea cada referencia y valida las unidades contra la orden registrada. 
               .row.align-items-center.mb-0
                 .col-12.mb-4.mb-lg-0
                   h3.mb-3 Embalaje
