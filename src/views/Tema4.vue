@@ -281,8 +281,8 @@
               h2.mb-5 A continuación, se invita a consultar el siguiente pódcast:
               TarjetaAudio.color-primario.p-4.mb-0(
                 texto="<span style='font-style: normal !important;'>Diseño de redes logísticas"
-                :audio="require_src('@/assets/curso/podcast/Podcast2.mp3')"
                 tiempo
+                :audio="require_src('@/assets/curso/podcast/podcast2.mp3')"
               )
 </template>
 
