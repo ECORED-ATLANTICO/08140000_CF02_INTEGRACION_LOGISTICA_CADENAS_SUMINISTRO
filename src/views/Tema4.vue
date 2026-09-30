@@ -278,10 +278,10 @@
             .col-8.col-lg-5.d-none.d-lg-block.mb-0
               img(src="@/assets/curso/tema1/img_31.png", class="img-fluid", alt="Micrófono con audífonos junto a una furgoneta de reparto, símbolo del podcast")
             .col-12.col-lg-7
-              h2.mb-5 A continuación, se invita a ir al siguiente pódcast:
+              h2.mb-5 A continuación, se invita a consultar el siguiente pódcast:
               TarjetaAudio.color-primario.p-4.mb-0(
-                texto="<span style='font-style: normal !important;'>Diseño de redes logísticas: conectando el transporte con la distribución eficiente"
-                :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
+                texto="<span style='font-style: normal !important;'>Diseño de redes logísticas"
+                :audio="require_src('@/assets/curso/podcast/Podcast2.mp3')"
                 tiempo
               )
 </template>
