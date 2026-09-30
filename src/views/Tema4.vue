@@ -279,10 +279,11 @@
               img(src="@/assets/curso/tema1/img_31.png", class="img-fluid", alt="Micrófono con audífonos junto a una furgoneta de reparto, símbolo del podcast")
             .col-12.col-lg-7
               h2.mb-5 A continuación, se invita a consultar el siguiente pódcast:
+            
               TarjetaAudio.color-primario.p-4.mb-0(
                 texto='<span style="font-style: normal !important;">Diseño de redes logística.</span>'
                 tiempo
-                :audio="require('@//assets/curso/podcast/podcast_2.mp3')"
+                :audio="require_src('@//assets/curso/podcast/podcast2.mp3')"
               )
               
 </template>
