@@ -473,9 +473,9 @@
             .col-12.col-lg-7
               h2.mb-5 A continuación, se invita a consultar el siguiente pódcast:
               TarjetaAudio.color-primario.p-4.mb-0(
-                texto="<span style='font-style: normal !important;'>Políticas logísticas como ventaja competitiva en las organizaciones modernas."
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                texto='<span style="font-style: normal !important;">Políticas logísticas como ventaja competitiva en las organizaciones modernas.</span>'
                 tiempo
+                :audio="require_src('@//assets/curso/podcast/podcast1.mp3')"
               )
 </template>
 
