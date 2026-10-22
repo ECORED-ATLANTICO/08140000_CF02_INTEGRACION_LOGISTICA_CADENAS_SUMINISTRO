@@ -405,22 +405,23 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img_26.png", class="img-fluid", alt="Trabajadores asegurando una carga paletizada con film plástico para su transporte")
-          .crd_hover_txt--body
-            .d-flex.align-items-center.mb-0
-              i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
-              h4.mb-3 Requisitos de transporte
-            p.mb-0 Comprende las condiciones que deben cumplir vehículos, equipos y procedimientos para movilizar la mercancía de forma segura. Ejemplo: los alimentos congelados se transportan en vehículos refrigerados que mantienen la temperatura requerida durante el recorrido.
-      .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
-        .crd_hover_txt
-          .crd_hover_txt--img
-            figure
               img(src="@/assets/curso/tema1/img_27.png", class="img-fluid", alt="Caja de cartón con símbolos de manipulación sobre una banda transportadora")
           .crd_hover_txt--body
             .d-flex.align-items-center.mb-0
               i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
               h4.mb-3 Condiciones de almacenamiento
             p.mb-0 Determina los requerimientos de ubicación, temperatura, humedad, ventilación, apilamiento y protección según las características del producto. Ejemplo: una empresa de alimentos mantiene los productos refrigerados en cámaras con temperatura controlada para preservar sus condiciones.
+      .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/img_26.png", class="img-fluid", alt="Trabajadores asegurando una carga paletizada con film plástico para su transporte")
+          .crd_hover_txt--body
+            .d-flex.align-items-center.mb-0
+              i.fas.fa-circle-chevron-up(style="width: 20px; height: 40px; font-weight: 900; color: #fff; font-size: 20px; margin-right: 10px;")
+              h4.mb-3 Requisitos de transporte
+            p.mb-0 Comprende las condiciones que deben cumplir vehículos, equipos y procedimientos para movilizar la mercancía de forma segura. Ejemplo: los alimentos congelados se transportan en vehículos refrigerados que mantienen la temperatura requerida durante el recorrido.
+      
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
