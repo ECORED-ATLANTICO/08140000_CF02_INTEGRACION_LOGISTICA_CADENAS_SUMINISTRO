@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-center.mb-0.h-100
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
-            img(src="@/assets/curso/tema2/img_1.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="Vista aérea de una persona registrando un pedido en un computador portátil junto a una caja y un lector de código de barras")
+            img(src="@/assets/curso/tema2/img_1.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="")
         .col-12.col-lg-7.p-5.ps-5.ps-lg-3
             p.mb-0 La planeación y el control de las operaciones logísticas permiten coordinar los recursos, monitorear el desempeño de los procesos y garantizar el cumplimiento de los objetivos de la cadena de suministro. Para ello, las organizaciones utilizan herramientas de seguimiento y análisis que facilitan la toma de decisiones y promueven la mejora continua.
 
@@ -86,7 +86,7 @@
               p.mb-0(data-aos="zoom-in-right") Grupo Éxito utiliza cuadros de control para supervisar indicadores como nivel de servicio, cumplimiento de entregas, rotación de inventarios, disponibilidad de productos y tiempos de abastecimiento en sus centros de distribución. Esta información permite identificar oportunidades de mejora y mantener la eficiencia de su red logística.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     separador
 
@@ -97,7 +97,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-lg-4.mb-5(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema2/img_2.png", class="img-fluid", alt="Hombre revisando documentos junto a una caja de embalaje, símbolo de la evaluación de proveedores")
+          img(src="@/assets/curso/tema2/img_2.png", class="img-fluid", alt="")
       .col-12.col-lg-8.mb-0.mb-5
         p.mb-3(data-aos="zoom-in-right") La Gestión de Relaciones con Proveedores (#[em Supplier Relationship Management ]– SRM) es una metodología que permite administrar de manera estratégica las relaciones con los proveedores mediante procesos de evaluación, seguimiento y mejora continua. Su propósito es fortalecer la colaboración entre las partes y garantizar el suministro oportuno de bienes y servicios que soportan la operación logística.
         .tarjeta.color-acento-botones-vc.p-4.mb-0(data-aos="zoom-in-right")
@@ -109,13 +109,13 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_30.png", alt="Ícono de una carpeta con un documento")
+                img(src="@/assets/curso/tema1/img_30.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Llamado a la acción. Caso práctico. Matriz de proveedores (SRM). El documento explica la manera de como hacer una matriz de proveedores por medio de un caso práctico.
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Anexo01.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Anexo_01_Caso_Practico_Matriz_SRM.pdf')" target="_blank")
                     span ir al recurso
 
     separador
@@ -143,13 +143,13 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_30.png", alt="Ícono de una carpeta con un documento")
+                img(src="@/assets/curso/tema1/img_30.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Llamado a la acción. Caso práctico. Matriz de clientes (CRM). El documento explica la manera de cómo hacer una matriz de clientes por medio de un caso práctico.
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Anexo02.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Anexo_02_Caso_Practico_Matriz_CRM.pdf')" target="_blank")
                     span ir al recurso
 
     .row.justify-content-center.align-items-center.mb-0
@@ -161,7 +161,7 @@
               p.mb-0(data-aos="zoom-in-right") Homecenter Colombia analiza permanentemente la información de compra de sus clientes para planificar inventarios, programar despachos y ofrecer servicios logísticos acordes con las necesidades de cada segmento del mercado, mejorando así la experiencia de compra tanto en tiendas físicas como en canales digitales.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     separador
 
@@ -195,7 +195,7 @@
                 p.mb-0 Compara las cantidades y tiempos programados con los resultados obtenidos para identificar desviaciones. Ejemplo: si una orden establece 2.000 unidades y se producen 1.850, la empresa analiza las causas del incumplimiento.
         .col-10.col-lg-2.mb-0.d-none.d-lg-block
           figure
-            img(src="@/assets/curso/tema2/img_4.png", class="img-fluid", alt="Cajas de cartón apiladas con un marcador de ubicación, símbolo del seguimiento de la producción")
+            img(src="@/assets/curso/tema2/img_4.png", class="img-fluid", alt="")
 
     .row.justify-content-center.mb-4
       .col-12.col-lg-10.mb-0
@@ -207,7 +207,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
             .col-12.col-lg-10.mb-0.mb-4.mb-lg-0
               h4.mb-3(data-aos="zoom-in-right") Ejemplo empresarial
               p.mb-0(data-aos="zoom-in-right") Tecnoquímicas S.A. realiza el control de sus procesos de manufactura mediante sistemas de programación y seguimiento de la producción que permiten garantizar la disponibilidad de medicamentos y productos de cuidado personal para su distribución nacional e internacional.
@@ -220,11 +220,11 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.order-2.order-lg-1
-        p.mb-4(data-aos="zoom-in-right") La matriz de transporte es una herramienta de planeación utilizada para organizar y evaluar las alternativas de movilización de mercancías considerando variables como origen, destino, costos, tiempos de entrega, capacidad de carga, frecuencia de despacho y nivel de servicio. Su utilización facilita la selección de las rutas y medios de transporte más eficientes para cada operación logística.
+        p.mb-4(data-aos="zoom-in-right") La matriz de transporte es una herramienta de planeación utilizada para organizar y evaluar las alternativas de movilización de mercancías, considerando variables como origen, destino, costos, tiempos de entrega, capacidad de carga, frecuencia de despacho y nivel de servicio. Su utilización facilita la selección de las rutas y medios de transporte más eficientes para cada operación logística.
         p.mb-0(data-aos="zoom-in-right") Además de optimizar los costos de distribución, esta herramienta contribuye a mejorar la utilización de los recursos, reducir tiempos de desplazamiento y fortalecer el cumplimiento de los compromisos adquiridos con los clientes.
       .col-8.col-lg-4.order-1.order-lg-2(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema2/img_6.png", class="img-fluid", alt="Carga de mercancía empacada junto a un avión en la pista de un aeropuerto")
+          img(src="@/assets/curso/tema2/img_6.png", class="img-fluid", alt="")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10
@@ -235,7 +235,7 @@
               p.mb-0(data-aos="zoom-in-right") Coordinadora Mercantil S.A. utiliza herramientas de planeación para organizar las rutas de transporte, asignar vehículos según la capacidad requerida y optimizar la distribución de mercancías en todo el territorio nacional. Esta planificación permite mejorar los tiempos de entrega, incrementar la eficiencia operativa y garantizar un servicio confiable a sus clientes.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-10
@@ -243,7 +243,7 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_29.png", alt="Ícono de reproducción de video")
+                img(src="@/assets/curso/tema1/img_29.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -258,7 +258,7 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_30.png", alt="Ícono de una carpeta con un documento de lectura")
+                img(src="@/assets/curso/tema1/img_30.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

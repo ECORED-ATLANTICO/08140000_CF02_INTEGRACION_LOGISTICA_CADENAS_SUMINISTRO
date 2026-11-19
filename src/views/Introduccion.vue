@@ -11,7 +11,7 @@
     
     .row.justify-content-center.align-items-start
       .col-lg-5
-        img(src="../assets/curso/introduccion/img_1.png" alt="Imagen de introducción").mb-3      
+        img(src="../assets/curso/introduccion/img_1.png" alt="").mb-3      
       .col-lg-7
         p.mb-3 La integración de las cadenas de suministro requiere procesos logísticos coordinados que permitan gestionar de manera eficiente el flujo de materiales, información y recursos desde los proveedores hasta el cliente final. Para lograrlo, las organizaciones implementan políticas, herramientas de planeación y mecanismos de control que facilitan la toma de decisiones y fortalecen el desempeño de las operaciones logísticas.
         

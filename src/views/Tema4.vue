@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-center.mb-0.h-100
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
-            img(src="@/assets/curso/tema4/img_1.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="Trabajadora revisando un documento junto a una tableta y estantes con cajas en una bodega")
+            img(src="@/assets/curso/tema4/img_1.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="")
         .col-12.col-lg-7.p-5.ps-5.ps-lg-3
             p.mb-0 El diseño de redes logísticas permite organizar el flujo de mercancías desde los proveedores hasta el cliente final mediante la integración eficiente de los procesos de transporte, almacenamiento y distribución. Una adecuada planificación de estas redes optimiza los recursos, reduce costos operativos y fortalece el nivel de servicio de la organización.
 
@@ -48,7 +48,7 @@
 
       .col-8.col-lg-4(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema4/img_2.png", class="img-fluid", alt="Repartidor cargando cajas en la parte trasera de una furgoneta")
+          img(src="@/assets/curso/tema4/img_2.png", class="img-fluid", alt="")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10
@@ -60,7 +60,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
             .col-12.col-lg-10.mb-0.mb-4.mb-lg-0
               h4.mb-3(data-aos="zoom-in-right") Ejemplo empresarial
               p.mb-0(data-aos="zoom-in-right") Servientrega opera una red nacional de transporte integrada por centros logísticos, plataformas de clasificación y una flota terrestre y aérea que le permite distribuir documentos y mercancías a diferentes regiones del país, optimizando tiempos de entrega y garantizando la trazabilidad de los envíos.
@@ -113,7 +113,7 @@
                   p.mb-0 Son establecimientos donde los productos se encuentran disponibles para su comercialización al consumidor final. Reciben mercancías de fabricantes o distribuidores y representan uno de los últimos puntos de la red.
       .col-12.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema4/img_4.png", class="img-fluid", alt="Estibas de cajas apiladas junto a un gato hidráulico en una bodega")
+          img(src="@/assets/curso/tema4/img_4.png", class="img-fluid", alt="")
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10
@@ -121,7 +121,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
             .col-12.col-lg-10.mb-0.mb-4.mb-lg-0
               h4.mb-3(data-aos="zoom-in-right") Ejemplo empresarial
               p.mb-0(data-aos="zoom-in-right") Grupo Éxito dispone de una red de distribución conformada por centros de distribución estratégicamente ubicados que abastecen sus diferentes formatos comerciales, permitiendo mantener la disponibilidad de productos en supermercados, hipermercados y tiendas de proximidad en todo el territorio nacional.
@@ -135,7 +135,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-lg-4.mb-5(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema4/img_5.png", class="img-fluid", alt="Conductor consultando una ruta en una aplicación de mapas desde su vehículo")
+          img(src="@/assets/curso/tema4/img_5.png", class="img-fluid", alt="")
       .col-12.col-lg-8.mb-0.mb-5
         p.mb-3(data-aos="zoom-in-right") Las rutas críticas corresponden a la secuencia de actividades que determina el tiempo mínimo requerido para ejecutar un proceso logístico o un proyecto determinado. Estas actividades poseen una relación de dependencia que impide retrasos, ya que cualquier variación en una de ellas afecta directamente la duración total de la operación.
         .tarjeta.color-acento-botones-vc.p-4.mb-0(data-aos="zoom-in-right")
@@ -150,7 +150,7 @@
               p.mb-0(data-aos="zoom-in-right") Durante el lanzamiento de un nuevo proyecto de vivienda, Marval S.A. debe coordinar actividades para la construcción de las unidades habitacionales, que van desde la preparación del sitio, hasta todos los trabajos civiles tanto en interiores como en exteriores. La identificación de la ruta crítica permite garantizar que las viviendas estén disponibles para exhibición en la fecha prevista para su comercialización.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     separador
 
@@ -160,7 +160,7 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img(src="@/assets/curso/tema4/img_6.png", alt="Camiones de carga junto a un cronómetro y cajas de embalaje")
+        img(src="@/assets/curso/tema4/img_6.png", alt="")
       .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 El método PERT (#[em Program Evaluation and Review Technique]) es una herramienta de planeación utilizada para estimar y controlar el tiempo de ejecución de proyectos mediante el análisis de actividades y sus relaciones de dependencia. Este método considera escenarios optimistas, probables y pesimistas para calcular la duración esperada de cada actividad y del proyecto en su conjunto.
 
@@ -198,7 +198,7 @@
           h5.mb-0(data-aos="zoom-in-right") TE = (4 + (4 × 6) + 10) / 6 = 6,33 horas
       .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema4/img_7.png", class="img-fluid", alt="Bodega de distribución con cajas apiladas en su interior")
+          img(src="@/assets/curso/tema4/img_7.png", class="img-fluid", alt="")
 
     p.mb-3(data-aos="zoom-in-right") Por tanto, para efectos de planificación, la empresa puede considerar aproximadamente 6,3 horas como tiempo esperado para esta actividad.
 
@@ -213,7 +213,7 @@
               p.mb-0(data-aos="zoom-in-right") DHL Supply Chain puede utilizar el método PERT para planificar la puesta en marcha de un nuevo centro de distribución, estimando los tiempos requeridos para adecuaciones físicas, instalación de equipos, capacitación del personal y entrada en operación de los sistemas logísticos.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     separador
 
@@ -224,7 +224,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-lg-4.mb-5(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema4/img_8.png", class="img-fluid", alt="Trabajadora escaneando una caja mientras un compañero la recibe")
+          img(src="@/assets/curso/tema4/img_8.png", class="img-fluid", alt="")
       .col-12.col-lg-8.mb-0.mb-5
         p.mb-3(data-aos="zoom-in-right") El método CPM (<em>Critical Path Method</em>) es una técnica de programación que permite determinar la secuencia de actividades críticas de un proyecto cuando los tiempos de ejecución son conocidos. Su objetivo consiste en identificar las actividades que no admiten retrasos y optimizar la utilización de recursos para garantizar el cumplimiento de los cronogramas establecidos.
         .tarjeta.color-acento-botones-vc.p-4.mb-0(data-aos="zoom-in-right")
@@ -239,7 +239,7 @@
               p.mb-0(data-aos="zoom-in-right") Constructora Bolívar, en el desarrollo de proyectos de infraestructura logística, utiliza metodologías de programación como el CPM para coordinar actividades relacionadas con construcción de bodegas, instalación de sistemas, adecuación de patios de maniobra y entrega de las instalaciones dentro de los tiempos contractuales.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-10
@@ -247,7 +247,7 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_29.png", alt="Ícono de reproducción de video")
+                img(src="@/assets/curso/tema1/img_29.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -262,7 +262,7 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_30.png", alt="Ícono de una carpeta con un documento de lectura")
+                img(src="@/assets/curso/tema1/img_30.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -276,7 +276,7 @@
         .tarjeta.tarjeta--fondo-img-03.py-3.px-5(data-aos="zoom-in-right")
           .row.align-items-center
             .col-8.col-lg-5.d-none.d-lg-block.mb-0
-              img(src="@/assets/curso/tema1/img_31.png", class="img-fluid", alt="Micrófono con audífonos junto a una furgoneta de reparto, símbolo del podcast")
+              img(src="@/assets/curso/tema1/img_31.png", class="img-fluid", alt="")
             .col-12.col-lg-7
               h2.mb-5 A continuación, se invita a consultar el siguiente pódcast:
             

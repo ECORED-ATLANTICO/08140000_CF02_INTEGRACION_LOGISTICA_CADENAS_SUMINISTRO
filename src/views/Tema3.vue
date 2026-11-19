@@ -22,7 +22,7 @@
           p.mb-0(data-aos="zoom-in-right") Este proceso considera materiales, inventarios, almacenamiento, transporte, personal, equipos y tiempos, facilitando su disponibilidad en el momento y lugar requeridos, evitando faltantes o excesos y favoreciendo la continuidad de los procesos que integran la cadena de suministro.
         .col-8.col-lg-1.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/tema3/img_2.png", class="img-fluid", alt="Mano sosteniendo una caja de cartón embalada")
+            img(src="@/assets/curso/tema3/img_2.png", class="img-fluid", alt="")
 
     separador
 
@@ -32,7 +32,7 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img(src="@/assets/curso/tema3/img_3.png", alt="Trabajadora etiquetando una caja junto a un computador portátil con un sistema de gestión")
+        img(src="@/assets/curso/tema3/img_3.png", alt="")
       .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 El análisis agregado es una herramienta de planeación utilizada para estimar la demanda y definir los recursos necesarios durante un horizonte de tiempo determinado. Su propósito consiste en equilibrar la capacidad de producción, la disponibilidad de inventarios y los requerimientos del mercado, optimizando el uso de materiales, personal y equipos.
 
@@ -44,7 +44,7 @@
           .row.justify-content-center.mb-3
             .col-5
               figure
-                img(src="@/assets/curso/tema3/img_5.png", class="img-fluid", alt="Icono de una bombilla junto a un cuaderno de notas, que representa los pronósticos de ventas")
+                img(src="@/assets/curso/tema3/img_5.png", class="img-fluid", alt="")
           h4.text-center Pronósticos de ventas
           p.text-center Estiman el comportamiento futuro de la demanda mediante datos históricos, tendencias y condiciones del mercado, proporcionando una referencia para planificar anticipadamente los niveles de producción, inventarios y recursos logísticos requeridos.
       .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -52,7 +52,7 @@
           .row.justify-content-center.mb-3
             .col-5
               figure
-                img(src="@/assets/curso/tema3/img_6.png", class="img-fluid", alt="Icono de una fábrica, que representa la capacidad instalada")
+                img(src="@/assets/curso/tema3/img_6.png", class="img-fluid", alt="")
           h4.text-center Capacidad instalada
           p.text-center Representa el nivel máximo de producción u operación que puede alcanzar la organización con la infraestructura, equipos, tecnología y condiciones disponibles durante un periodo determinado, permitiendo identificar posibles limitaciones frente a la demanda.
       .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -60,7 +60,7 @@
           .row.justify-content-center.mb-3
             .col-5
               figure
-                img(src="@/assets/curso/tema3/img_7.png", class="img-fluid", alt="Icono de un montacargas transportando cajas, que representa los niveles de inventario")
+                img(src="@/assets/curso/tema3/img_7.png", class="img-fluid", alt="")
           h4.text-center Niveles de inventario
           p.text-center Reflejan las cantidades de materias primas, productos en proceso o terminados disponibles en un momento determinado, permitiendo establecer necesidades de reposición y mantener un equilibrio entre disponibilidad, demanda y costos asociados.
       .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -68,7 +68,7 @@
           .row.justify-content-center.mb-3
             .col-5
               figure
-                img(src="@/assets/curso/tema3/img_8.png", class="img-fluid", alt="Icono de un grupo de personas junto a un engranaje, que representa los recursos disponibles")
+                img(src="@/assets/curso/tema3/img_8.png", class="img-fluid", alt="")
           h4.text-center Recursos disponibles
           p.text-center Comprenden el personal, materiales, equipos, instalaciones y medios necesarios para ejecutar las operaciones previstas, cuya disponibilidad permite determinar si la organización puede responder a los requerimientos de producción y logística proyectados.
 
@@ -81,7 +81,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-lg-4.mb-5(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema3/img_9.png", class="img-fluid", alt="Cuaderno con la palabra Plan escrita a mano, junto a una calculadora y una caja de embalaje")
+          img(src="@/assets/curso/tema3/img_9.png", class="img-fluid", alt="")
       .col-12.col-lg-8.mb-0.mb-5
         p.mb-3(data-aos="zoom-in-right") El plan agregado corresponde al proceso mediante el cual la organización establece el nivel general de producción, inventarios, capacidad operativa y utilización de recursos para atender la demanda prevista durante un período determinado.
         .tarjeta.color-secundario-vc.p-4.mb-0(data-aos="zoom-in-right")
@@ -96,7 +96,7 @@
               p.mb-0(data-aos="zoom-in-right") Grupo Nutresa desarrolla planes agregados para coordinar la producción de sus diferentes líneas de alimentos, ajustando la capacidad de sus plantas y la disponibilidad de materias primas de acuerdo con las proyecciones de demanda nacional e internacional.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     separador
 
@@ -111,7 +111,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img_10.png", class="img-fluid", alt="Icono de una gráfica de barras con tendencia ascendente")
+              img(src="@/assets/curso/tema3/img_10.png", class="img-fluid", alt="")
           .crd_hover_txt--body_2
             h4.mb-3 Programación de compras
             p.mb-0 Permite determinar qué insumos y materiales deben adquirirse y en qué momento, de acuerdo con las cantidades y fechas previstas en el programa de producción, favoreciendo un abastecimiento oportuno.
@@ -119,7 +119,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img_11.png", class="img-fluid", alt="Estantería con rollos de tela de distintos colores en una bodega textil")
+              img(src="@/assets/curso/tema3/img_11.png", class="img-fluid", alt="")
           .crd_hover_txt--body_2
             h4.mb-3 Disponibilidad de materiales
             p.mb-0 Busca asegurar que las materias primas, componentes e insumos necesarios se encuentren disponibles cuando sean requeridos por producción, reduciendo interrupciones ocasionadas por faltantes o retrasos en el abastecimiento.
@@ -127,7 +127,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img_12.png", class="img-fluid", alt="Trabajadora operando una máquina industrial de costura en una planta de producción")
+              img(src="@/assets/curso/tema3/img_12.png", class="img-fluid", alt="")
           .crd_hover_txt--body_2
             h4.mb-3 Utilización de los recursos productivos
             p.mb-0 Favorece la coordinación del personal, maquinaria, equipos e instalaciones con las necesidades de producción programadas, procurando aprovechar la capacidad disponible y disminuir tiempos improductivos, sobrecargas y uso innecesario de recursos.
@@ -143,7 +143,7 @@
               p.mb-0(data-aos="zoom-in-right") Colombina S.A. utiliza el Programa Maestro de Producción para planificar la fabricación de confites, chocolates y galletas, garantizando que las diferentes plantas produzcan las cantidades necesarias para abastecer tanto el mercado nacional como las exportaciones.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     separador
 
@@ -157,7 +157,7 @@
         p.mb-0(data-aos="zoom-in-right") El MRP considera la demanda prevista, los inventarios disponibles, los tiempos de suministro y la estructura del producto para determinar oportunamente las necesidades de abastecimiento. Su aplicación contribuye a disminuir inventarios innecesarios, evitar faltantes de materiales y mejorar la coordinación entre compras y producción.
       .col-8.col-lg-4.order-1.order-lg-2(data-aos="fade-up")
         figure
-          img(src="@/assets/curso/tema3/img_13.png", class="img-fluid", alt="Brazos robóticos ensamblando la carrocería de un automóvil en una línea de producción")
+          img(src="@/assets/curso/tema3/img_13.png", class="img-fluid", alt="")
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10
@@ -165,7 +165,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
             .col-12.col-lg-10.mb-0.mb-4.mb-lg-0
               h4.mb-3(data-aos="zoom-in-right") Ejemplo empresarial
               p.mb-0(data-aos="zoom-in-right") Toyota emplea sistemas MRP para programar el suministro de componentes automotrices requeridos en sus líneas de ensamblaje, coordinando las entregas de proveedores nacionales e internacionales con la programación de producción.
@@ -180,7 +180,7 @@
       .row.justify-content-center.align-items-center.mb-0.h-100
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
-            img(src="@/assets/curso/tema3/img_14.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="Estantería de bodega con llantas almacenadas")
+            img(src="@/assets/curso/tema3/img_14.png", class="img-fluid p-0 w-100 h-100 object-fit-cover", alt="")
         .col-12.col-lg-7.p-5.ps-5.ps-lg-3
             p.mb-0 La lista de materiales (#[em Bill of Materials] - BOM) es el documento que identifica todos los componentes, materias primas, insumos y cantidades requeridas para fabricar un producto determinado. Constituye una herramienta fundamental para la planeación de la producción y el cálculo de los requerimientos de materiales.
 
@@ -265,7 +265,7 @@
                   | #[strong H – Costo de mantenimiento:] costo de conservar una unidad en inventario durante el periodo, considerando almacenamiento, seguros, deterioro, obsolescencia y otros costos asociados.
             .col-8.col-lg-3.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema3/img_18.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema3/img_18.png", class="img-fluid", alt="")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-10
@@ -280,7 +280,7 @@
               p.mb-0(data-aos="zoom-in-right") Olímpica S.A. puede utilizar el modelo EOQ para calcular la cantidad óptima de productos de alta rotación que debe solicitar a sus proveedores, evitando tanto el desabastecimiento como el exceso de inventario en sus centros de distribución y supermercados.
             .col-8.col-lg-2.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="fade-up")
               figure
-                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Icono de un camión de reparto")
+                img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="")
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-10
@@ -288,7 +288,7 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_29.png", alt="Ícono de reproducción de video")
+                img(src="@/assets/curso/tema1/img_29.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -303,7 +303,7 @@
           .row.justify-content-around.align-items-center
             .col-6.col-md-2.col-lg-1.mb-3.mb-sm-0
               figure
-                img(src="@/assets/curso/tema1/img_30.png", alt="Ícono de una carpeta con un documento de lectura")
+                img(src="@/assets/curso/tema1/img_30.png", alt="")
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
